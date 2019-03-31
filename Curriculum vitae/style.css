@@ -1,0 +1,155 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/background.png");
+	font-family: 'Merienda', cursive;
+	color: #A5ADBE;
+}
+
+#container
+{
+	width: 900px;
+
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+header
+{
+	padding: 10px;
+	font-size:30px;
+	text-align: left;
+	background: #051258d6;
+	border-radius: 50px;
+}
+
+header > h1
+{
+	width: 100px;
+	margin:20px;
+	line-height:55px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #A5ADBE;
+}
+
+a:hover
+{
+	color: #B6BECF;
+}
+
+h1
+{
+	margin:0;
+	margin-left: 50px;
+	padding: 0;
+}
+
+nav
+{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+nav > a
+{
+	text-decoration: none;
+	color: gray;	
+}
+
+.navButton > a:hover > i 
+{
+	color: #393539;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+}
+
+.navButton
+{
+	float:left;
+	font-size: 24px;
+	width: 266px;
+	margin: 5px;
+	padding: 10px;
+	min-height: 230px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+
+.navButton > a > i
+{
+	display:table-cell;
+    vertical-align:middle;
+    height: 180px;
+    color:grey;
+    transition: font-size 0.2s linear;
+}
+
+.socialMedia
+{
+	float:left;
+	width:161px;
+	height: 100px;
+	padding: 10px;
+	margin: 10px 20px;
+	border-radius: 10px;
+	font-size:80px;
+	text-align: center;}
+
+.socialMedia a
+{
+	text-decoration-style:none;
+	opacity:0.5;
+}
+
+.socialMedia a > i  
+{
+	color: gray;
+}
+
+.socialMedia a:hover
+{
+	opacity: 1;
+	padding:10px;
+    border-radius:10px;
+}
+
+#yt a:hover
+{
+    background:#c4302b;
+}
+
+#fb a:hover
+{
+    background:#3b5998;
+}
+
+#gplus a:hover
+{
+    background:#db4a39;
+}
+
+#tw a:hover
+{
+    background:#1da1f2;
+}
+
+
+footer
+{
+	width: 100%;
+	background: #051258d6;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	margin:20px 0px;
+}
+

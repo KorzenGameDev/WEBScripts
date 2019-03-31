@@ -1,0 +1,341 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/background.png");
+	font-family: 'Merienda', cursive;
+	color: #949CAD;
+}
+
+/*głowny pojemnik na  treśc indexu i podstron*/
+#container
+{
+	/*rozmiar strony*/
+	width: 1000px;
+
+	/*marginy strony wysrodkowanie jej*/
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+/*koniec głównego pojemnnika na tresc
+
+/*nagłowek podstron*/
+.top
+{
+	width:960px;
+
+	/*TODO implementacja bordera w innych przegladarkach*/
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+
+	padding: 20px;
+
+	font-size: 40px;
+	text-align: center;
+}
+/*konie nagłowka podstron*/
+
+
+/*modyfikacja nagłowków podstron i indexu*/
+header
+{	
+	background: #051258bd;
+	/*TODO implementacja w innych przegadarkach */
+	border-radius: 50px;
+
+	padding: 10px;
+
+	font-size:30px;
+	text-align: left;
+}
+
+header > h1
+{
+	width: 100px;
+	margin:20px;
+	line-height:55px;
+}
+/*koniec modyfikacji nagłówków podstron i indexu*/
+
+/* zmiana linków w nagłówkach indxu i podstron*/
+a
+{
+	text-decoration: none;
+	color: #A5ADBE;
+}
+
+a:hover
+{
+	color: #B6BECF;
+}
+/*koniec zmiany linków*/
+
+h1
+{
+	margin:0;
+	margin-left: 50px;
+	padding: 0;
+}
+
+/*Nawigacja indexu*/
+nav
+{
+	width: 900px;
+	/*wysrodkowanie nava w contenerze*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+	font-size: 20px;
+}
+
+nav  > a
+{
+	text-decoration: none;
+	color: gray;	
+}
+
+/*zachowanie po najechaniu na blok nawigacji w indexie*/
+.navButton > a:hover > i 
+{
+	color: #393539;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+}
+
+.navButton
+{
+	float:left;
+
+	width: 266px;
+	min-height: 230px;
+
+	
+	margin: 5px;
+	padding: 10px;
+
+	border-radius: 15px;
+
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.navButton > a > i
+{
+	display:table-cell;
+    vertical-align:middle;
+    height: 180px;
+    color:grey;
+    transition: font-size 0.2s linear;
+}
+/*koniec głownej nawigacji w indexie*/
+
+/*paski social media na inexie i podstronach*/
+.socialMedia
+{
+	float:left;
+	width:161px;
+	height: 100px;
+	padding: 10px;
+	margin: 10px 20px;
+	border-radius: 10px;
+	font-size:80px;
+	text-align: center;}
+
+.socialMedia a
+{
+	text-decoration-style:none;
+	opacity:0.5;
+}
+
+.socialMedia a > i  
+{
+	color: gray;
+}
+
+.socialMedia a:hover
+{
+	opacity: 1;
+	padding:10px;
+    border-radius:10px;
+}
+
+#yt a:hover
+{
+    background:#c4302b;
+}
+
+#fb a:hover
+{
+    background:#3b5998;
+}
+
+#gplus a:hover
+{
+    background:#db4a39;
+}
+
+#tw a:hover
+{
+    background:#1da1f2;
+}
+
+#snap a:hover
+{
+	background: #fffc00;
+}
+
+#inst a:hover
+{
+	background: #e95950;
+}
+
+#git a:hover
+{
+	background: #000000;
+}
+
+.LeftNavigation
+{
+	float: left;
+	width: 200px;
+}
+/*Koniec bloków z socjal mediami*/
+
+/*stopka wspólna dla wszystkich stron*/
+footer
+{
+	width: 100%;
+	background: #051258d6;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px;
+	margin:20px 0px;
+}
+/*koniec stopki*/
+
+/*pojedyncze bloki sekcji na podstronie*/
+
+section
+{
+	width:710px;
+	background: #d6d0d08a;
+	min-height: 240px;
+	margin-bottom: 25px;
+	border-radius: 25px;
+}
+
+.LeftSection
+{
+	float: left;
+	text-align: justify;
+	font-size: 18px;
+	padding-left: 28px;
+	padding-right: 40px;
+	width: 420px;
+	min-height: 220px;
+	border-left: 2px dashed black;
+	text-align: justify;
+}
+
+.RightSection
+{
+	float: left;
+	text-align: justify;
+	font-size: 18px;
+	padding-left: 40px;
+	padding-right: 28px;
+	width: 420px;
+	min-height: 220px;
+	border-right: 2px dashed black;
+	text-align: justify;
+}
+
+
+section > p > h1
+{
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+
+.art
+{
+	float: left;
+	width: 200px;
+	min-height: 220px;
+	padding: 10px;
+
+}
+
+h2
+{
+	margin:20px 10px;
+	padding: 5px;
+}
+/*koniec pojedynczych bloków na podstronie*/
+
+/*wspolna czesc sekcji na podstronie*/
+main
+{
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 750px;
+	float: left;
+}
+/*Koniec czesci wspolnej sekcji na podstronie*/
+
+/* Nawigacja na podstronach*/
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0;
+	min-height: 40px;
+}
+
+ul >li
+{
+	margin: 0;
+	padding: 0 5px;
+	display: inline-block;
+	min-width: 100px;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	border-right: 1px dashed black;
+
+}
+
+ul > li:first-child
+{
+	border-left: 1px dashed black;
+}
+
+ul > li > a
+{
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 15px;
+	color: #b7b3b0e8;
+	transition: background 0.2s linear, color 0.2s linear;
+}
+
+ul > li:hover >a
+{
+	background: #162369bd;
+	color: white;
+	cursor: pointer;
+}
+
+.navigation
+{
+	text-align: center;
+	background: #051258bd;
+	width:1000px;
+}
+
+/*Koniec nawigacji na podstronie*/
